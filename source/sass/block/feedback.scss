@@ -1,0 +1,58 @@
+.feedback {
+  background: linear-gradient($gray-opacity, $gray-opacity) center, url("../img/background-feedback.jpg") center/ cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  color: $white-basic;
+  height: 647px;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient($gray-opacity, $gray-opacity) center, url("../img/background-feedback@2x.jpg") center/ cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.feedback__wrapper {
+  display: grid;
+  grid-template-columns: 59% 41%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.feedback__banner {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__subtitle {
+  order: -1;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.feedback__title {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 15px 0 18px;
+  
+  span {
+    display: block;
+  }
+}
+
+.feedback__slogan {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.feedback__form {
+  width: 400px;
+  height: 464px;
+}

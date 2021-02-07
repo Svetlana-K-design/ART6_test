@@ -1,0 +1,22 @@
+.button {
+  width: 336px;
+  height: 48px;
+  background: linear-gradient(91.17deg, $magenta-light 0.01%, $magenta-dark 100.01%);
+  text-align: center;
+  color: $white-basic;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+  &:hover {
+    opacity: 30%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
